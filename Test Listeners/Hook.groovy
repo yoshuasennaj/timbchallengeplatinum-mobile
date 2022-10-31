@@ -25,7 +25,7 @@ import com.kms.katalon.core.util.KeywordUtil
 
 class Hook {
 	def launchApp() {
-		Mobile.startApplication('Apk/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk', true)
+		Mobile.startApplication('Apk/app-release.apk', true)
 	  }
 		
 	  @BeforeTestCase
