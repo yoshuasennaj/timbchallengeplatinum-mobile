@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>NamaLengkap</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4a8fc9ab-c77a-476c-974b-a499f5c6f009</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>02d5ac02-39e8-4462-a9c3-27ad6740ba9e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>02d5ac02-39e8-4462-a9c3-27ad6740ba9e</id>
+      <masked>false</masked>
+      <name>namalengkap</name>
+   </variable>
+</TestCaseEntity>

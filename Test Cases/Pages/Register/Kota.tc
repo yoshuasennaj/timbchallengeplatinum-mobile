@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Kota</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e7db7346-160f-48c8-bea7-39e4df81a459</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>262fdc84-415b-479f-9088-c42bcd55f002</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>262fdc84-415b-479f-9088-c42bcd55f002</id>
+      <masked>false</masked>
+      <name>kota</name>
+   </variable>
+</TestCaseEntity>

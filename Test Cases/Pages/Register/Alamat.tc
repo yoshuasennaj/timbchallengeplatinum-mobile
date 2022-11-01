@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Alamat</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5be4ff18-988f-4704-8c05-6394a4de3185</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e9e997cb-4c16-4a9f-a3c6-73a9771ebf8b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e9e997cb-4c16-4a9f-a3c6-73a9771ebf8b</id>
+      <masked>false</masked>
+      <name>alamat</name>
+   </variable>
+</TestCaseEntity>

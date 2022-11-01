@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>NoTelp</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6c3d8153-ca24-474b-8f32-04f2cbea5cfd</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>eda16b43-c799-4ed6-88ad-25e0c15d5c56</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>eda16b43-c799-4ed6-88ad-25e0c15d5c56</id>
+      <masked>false</masked>
+      <name>notelp</name>
+   </variable>
+</TestCaseEntity>
