@@ -1,3 +1,4 @@
+package stepDefinition
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -44,21 +45,32 @@ import cucumber.api.java.en.When
 
 
 class Search {
-	/**
-	 * The step definitions below match with Katalon sample Gherkin steps
-	 */
-	@Given("I want to write a step with (.*)")
-	def I_want_to_write_a_step_with_name(String name) {
-		println name
-	}
+@Given("User tap menu beranda")
+public void user_tap_menu_beranda() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
 
-	@When("I check for the (\\d+) in step")
-	def I_check_for_the_value_in_step(int value) {
-		println value
-	}
+@Then("User tap search semua category")
+public void user_tap_search_semua_category() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
 
-	@Then("I verify the (.*) in step")
-	def I_verify_the_status_in_step(String status) {
-		println status
-	}
+@Then("User verify image at search semua mantul kursi")
+public void user_verify_image_at_search_semua_mantul_kursi() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+@Then("User tap search elektronik category")
+public void user_tap_search_elektronik_category() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+@Then("User verify image at search elektronik tango")
+public void user_verify_image_at_search_elektronik_tango() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
 }
