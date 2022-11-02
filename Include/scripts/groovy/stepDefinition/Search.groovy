@@ -69,3 +69,4 @@ class Search {
 	public void user_verify_image_at_search_elektronik_tango() {
 		Mobile.verifyElementVisible(findTestObject('Search_Category/img_tango'), 0)
 	}
+}
