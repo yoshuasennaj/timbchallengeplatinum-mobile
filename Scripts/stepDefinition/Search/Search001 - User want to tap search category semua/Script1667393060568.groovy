@@ -17,3 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('Pages/Search/Search_Semua'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/Search/Verify_Content_Semua'), [:], FailureHandling.STOP_ON_FAILURE)
+

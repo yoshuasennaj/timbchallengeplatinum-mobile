@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.tap(findTestObject('Search_Category/button_Beranda'), 0)
+WebUI.callTestCase(findTestCase('Pages/Search/Search_Elektronik'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Search_Category/button_Elektronik'), 0)
+WebUI.callTestCase(findTestCase('Pages/Search/Verify_Content_Elektronik'), [:], FailureHandling.STOP_ON_FAILURE)
 

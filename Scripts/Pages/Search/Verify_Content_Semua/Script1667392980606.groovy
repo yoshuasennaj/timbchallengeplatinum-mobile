@@ -17,7 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.tap(findTestObject('Search_Category/button_Beranda'), 0)
-
-Mobile.tap(findTestObject('Search_Category/button_Elektronik'), 0)
+Mobile.verifyElementVisible(findTestObject('Search_Category/img_mantul_kursi'), 0)
 
