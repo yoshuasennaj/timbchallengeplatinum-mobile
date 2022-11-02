@@ -47,30 +47,25 @@ import cucumber.api.java.en.When
 class Search {
 @Given("User tap menu beranda")
 public void user_tap_menu_beranda() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new PendingException();
+	Mobile.tap(findTestObject('Search_Category/button_Beranda'), 0)	
 }
 
 @Then("User tap search semua category")
 public void user_tap_search_semua_category() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new PendingException();
+	Mobile.tap(findTestObject('Search_Category/button_Semua'), 0)
 }
 
 @Then("User verify image at search semua mantul kursi")
 public void user_verify_image_at_search_semua_mantul_kursi() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new PendingException();
+	Mobile.verifyElementVisible(findTestObject('Search_Category/img_mantul_kursi'), 0)
 }
 
 @Then("User tap search elektronik category")
 public void user_tap_search_elektronik_category() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new PendingException();
+	Mobile.tap(findTestObject('Search_Category/button_Elektronik'), 0)
 }
 
 @Then("User verify image at search elektronik tango")
 public void user_verify_image_at_search_elektronik_tango() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new PendingException();
+	Mobile.verifyElementVisible(findTestObject('Search_Category/img_tango'), 0)
 }
