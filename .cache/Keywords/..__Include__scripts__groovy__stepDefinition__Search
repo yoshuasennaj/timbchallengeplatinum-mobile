@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "4D0A67F8A447A60B9D99F5D5AE0CA31E",
+  "keywordClasses": [
+    {
+      "name": "stepDefinition.Search",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}
